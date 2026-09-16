@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://kamilla29.github.io/atelier-nova-web/public/sitemap.xml
