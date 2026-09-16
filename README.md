@@ -1,11 +1,10 @@
 # Atelier Nova — Commercial Website Frontend
 
 [![Quality checks](https://github.com/Kamilla29/atelier-nova-web/actions/workflows/quality.yml/badge.svg)](https://github.com/Kamilla29/atelier-nova-web/actions/workflows/quality.yml)
-[![Deploy to GitHub Pages](https://github.com/Kamilla29/atelier-nova-web/actions/workflows/pages.yml/badge.svg)](https://github.com/Kamilla29/atelier-nova-web/actions/workflows/pages.yml)
 
 A responsive commercial website for a fictional Prague interior-design studio, built as a **classic frontend / design-to-code portfolio case**.
 
-**Live demo:** https://kamilla29.github.io/atelier-nova-web/
+The repository already includes a GitHub Pages deployment workflow; the public demo can be enabled from the repository Pages settings.
 
 The project intentionally uses semantic HTML5, SCSS, Bootstrap and jQuery rather than React. Its purpose is to demonstrate agency-style website implementation alongside my React/TypeScript application projects.
 
@@ -28,7 +27,7 @@ My portfolio already demonstrates React and TypeScript application development. 
 - `robots.txt`, `sitemap.xml` and canonical URL setup;
 - reduced-motion support and visible keyboard focus;
 - local visual assets with explicit dimensions to reduce layout shift;
-- GitHub Actions quality checks and GitHub Pages deployment.
+- GitHub Actions quality checks and GitHub Pages deployment workflow.
 
 ## Stack
 
@@ -50,7 +49,7 @@ My portfolio already demonstrates React and TypeScript application development. 
 | Project detail overlay | Bootstrap Modal |
 | Responsive layout | Bootstrap grid + custom SCSS |
 | Motion preferences | CSS `prefers-reduced-motion` |
-| Static deployment | GitHub Pages |
+| Static deployment | GitHub Pages workflow |
 | Automated syntax check | GitHub Actions |
 
 ## Design → Code
