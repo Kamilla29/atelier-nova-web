@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="cs">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f3efe8" />
+    <meta name="description" content="Atelier Nova — návrhy interiérů a realizace rezidenčních prostor v Praze. Ukázkový commercial frontend portfolio project." />
+    <meta name="keywords" content="interiérový design Praha, návrh interiéru, realizace interiéru, frontend portfolio" />
+    <meta name="author" content="Kamilla Kuanysheva" />
+    <meta property="og:title" content="Atelier Nova — interiéry s klidem a charakterem" />
+    <meta property="og:description" content="Ukázkový commercial website project: HTML5, SCSS, Bootstrap a jQuery." />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="cs_CZ" />
+    <link rel="canonical" href="https://kamilla29.github.io/atelier-nova-web/" />
+    <link rel="icon" href="public/favicon.svg" type="image/svg+xml" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="src/styles.css" rel="stylesheet" />
+    <title>Atelier Nova — interiérový design Praha</title>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "name": "Atelier Nova",
+        "description": "Fiktivní interiérové studio vytvořené jako frontend portfolio case.",
+        "areaServed": "Prague",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Praha",
+          "addressCountry": "CZ"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Přejít na hlavní obsah</a>
+
+    <header class="site-header" id="top">
+      <nav class="navbar navbar-expand-lg" aria-label="Hlavní navigace">
+        <div class="container">
+          <a class="navbar-brand" href="#top" aria-label="Atelier Nova — domů">
+            <span class="brand-mark" aria-hidden="true">N</span>
+            <span>Atelier Nova</span>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Otevřít navigaci">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mainNav">
+            <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+              <li class="nav-item"><a class="nav-link" href="#sluzby">Služby</a></li>
+              <li class="nav-item"><a class="nav-link" href="#projekty">Projekty</a></li>
+              <li class="nav-item"><a class="nav-link" href="#proces">Proces</a></li>
+              <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+              <li class="nav-item ms-lg-2"><a class="btn btn-dark rounded-pill px-4" href="#kontakt">Konzultace</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero section-pad">
+        <div class="container">
+          <div class="row align-items-end g-5">
+            <div class="col-lg-7">
+              <p class="eyebrow">Interiérové studio · Praha</p>
+              <h1>Prostory, které působí přirozeně. A fungují každý den.</h1>
+              <p class="hero-copy">Navrhujeme klidné, promyšlené interiéry pro byty a menší komerční prostory — od první dispozice po finální detail.</p>
+              <div class="hero-actions d-flex flex-wrap gap-3">
+                <a class="btn btn-dark btn-lg rounded-pill px-4" href="#projekty">Prohlédnout realizace</a>
+                <a class="btn btn-outline-dark btn-lg rounded-pill px-4" href="#kontakt">Nezávazná konzultace</a>
+              </div>
+            </div>
+            <div class="col-lg-5">
+              <div class="hero-stat" aria-label="Projektové statistiky">
+                <div><strong>48</strong><span>dokončených prostor</span></div>
+                <div><strong>7 let</strong><span>praxe v interiéru</span></div>
+                <div><strong>4.9/5</strong><span>průměrné hodnocení</span></div>
+              </div>
+            </div>
+          </div>
+          <figure class="hero-visual mt-5">
+            <img src="public/assets/project-1.svg" width="1600" height="900" alt="Minimalistický obývací prostor v teplých neutrálních tónech" fetchpriority="high" />
+            <figcaption>Rezidence Vinohrady · 2026</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="section-pad section-soft" id="sluzby">
+        <div class="container">
+          <div class="section-heading row g-4 align-items-end">
+            <div class="col-lg-7">
+              <p class="eyebrow">Služby</p>
+              <h2>Od rozhodnutí „chci změnu“ až po prostor připravený k životu.</h2>
+            </div>
+            <div class="col-lg-5">
+              <p>Každý rozsah stavíme podle reálných potřeb projektu. Bez zbytečných balíčků, bez designu pro design.</p>
+            </div>
+          </div>
+          <div class="row g-4 mt-2">
+            <div class="col-md-6 col-xl-4">
+              <article class="service-card h-100">
+                <span class="service-index">01</span>
+                <h3>Koncept interiéru</h3>
+                <p>Dispozice, materiály, barevnost, světlo a hlavní vizuální směr.</p>
+                <ul><li>moodboard</li><li>2D dispozice</li><li>materiálový návrh</li></ul>
+              </article>
+            </div>
+            <div class="col-md-6 col-xl-4">
+              <article class="service-card h-100">
+                <span class="service-index">02</span>
+                <h3>Kompletní návrh</h3>
+                <p>Detailní podklady pro realizaci, nábytek, osvětlení a návaznosti řemesel.</p>
+                <ul><li>3D vizualizace</li><li>výkresová dokumentace</li><li>specifikace prvků</li></ul>
+              </article>
+            </div>
+            <div class="col-md-6 col-xl-4">
+              <article class="service-card h-100">
+                <span class="service-index">03</span>
+                <h3>Realizace</h3>
+                <p>Koordinace dodavatelů, autorský dozor a kontrola klíčových detailů.</p>
+                <ul><li>harmonogram</li><li>kontrola návazností</li><li>finální styling</li></ul>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-pad" id="projekty">
+        <div class="container">
+          <div class="section-heading d-lg-flex justify-content-between align-items-end gap-4">
+            <div>
+              <p class="eyebrow">Vybrané projekty</p>
+              <h2>Interiéry bez jedné šablony.</h2>
+            </div>
+            <div class="project-filters" role="group" aria-label="Filtrovat projekty">
+              <button class="filter-btn active" type="button" data-filter="all" aria-pressed="true">Vše</button>
+              <button class="filter-btn" type="button" data-filter="byt" aria-pressed="false">Byty</button>
+              <button class="filter-btn" type="button" data-filter="dum" aria-pressed="false">Domy</button>
+              <button class="filter-btn" type="button" data-filter="komerce" aria-pressed="false">Komerce</button>
+            </div>
+          </div>
+
+          <div class="row g-4 mt-2" id="projectGrid">
+            <div class="col-md-6 project-item" data-category="byt">
+              <button class="project-card" type="button" data-project="0" aria-label="Otevřít projekt Rezidence Vinohrady">
+                <img src="public/assets/project-1.svg" width="1200" height="800" loading="lazy" alt="Rezidence Vinohrady" />
+                <span class="project-meta"><strong>Rezidence Vinohrady</strong><small>Byt · Praha 2</small></span>
+              </button>
+            </div>
+            <div class="col-md-6 project-item" data-category="dum">
+              <button class="project-card" type="button" data-project="1" aria-label="Otevřít projekt Dům pod lesem">
+                <img src="public/assets/project-2.svg" width="1200" height="800" loading="lazy" alt="Dům pod lesem" />
+                <span class="project-meta"><strong>Dům pod lesem</strong><small>Dům · Říčany</small></span>
+              </button>
+            </div>
+            <div class="col-md-6 project-item" data-category="komerce">
+              <button class="project-card" type="button" data-project="2" aria-label="Otevřít projekt Studio Linea">
+                <img src="public/assets/project-3.svg" width="1200" height="800" loading="lazy" alt="Studio Linea" />
+                <span class="project-meta"><strong>Studio Linea</strong><small>Komerce · Karlín</small></span>
+              </button>
+            </div>
+            <div class="col-md-6 project-item" data-category="byt">
+              <button class="project-card" type="button" data-project="3" aria-label="Otevřít projekt Byt Na Výtoni">
+                <img src="public/assets/project-4.svg" width="1200" height="800" loading="lazy" alt="Byt Na Výtoni" />
+                <span class="project-meta"><strong>Byt Na Výtoni</strong><small>Byt · Praha 2</small></span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-pad section-dark" id="proces">
+        <div class="container">
+          <div class="row g-5">
+            <div class="col-lg-5">
+              <p class="eyebrow">Jak spolupráce probíhá</p>
+              <h2>Jasný proces. Méně nejistoty během realizace.</h2>
+            </div>
+            <div class="col-lg-7">
+              <ol class="process-list">
+                <li><span>01</span><div><h3>Úvodní konzultace</h3><p>Rozsah, rozpočet, harmonogram a to, co má prostor ve výsledku řešit.</p></div></li>
+                <li><span>02</span><div><h3>Koncept</h3><p>Dispozice a vizuální směr, který společně upravíme před detailním návrhem.</p></div></li>
+                <li><span>03</span><div><h3>Dokumentace</h3><p>Konkrétní materiály, prvky, výkresy a zadání pro dodavatele.</p></div></li>
+                <li><span>04</span><div><h3>Realizace</h3><p>Kontrola klíčových návazností a finální doladění prostoru.</p></div></li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-pad" id="faq">
+        <div class="container">
+          <div class="row g-5">
+            <div class="col-lg-5">
+              <p class="eyebrow">Časté otázky</p>
+              <h2>Co je dobré vědět před začátkem.</h2>
+            </div>
+            <div class="col-lg-7">
+              <div class="faq-list">
+                <article class="faq-item">
+                  <button class="faq-question" type="button" aria-expanded="false"><span>Kolik času zabere návrh bytu?</span><span aria-hidden="true">+</span></button>
+                  <div class="faq-answer" hidden><p>U běžného bytu počítejte přibližně se 6–10 týdny podle rozsahu a rychlosti schvalování.</p></div>
+                </article>
+                <article class="faq-item">
+                  <button class="faq-question" type="button" aria-expanded="false"><span>Pracujete i s existujícím nábytkem?</span><span aria-hidden="true">+</span></button>
+                  <div class="faq-answer" hidden><p>Ano. Pokud má pro vás konkrétní kus význam nebo dobře funguje, návrh s ním může počítat od začátku.</p></div>
+                </article>
+                <article class="faq-item">
+                  <button class="faq-question" type="button" aria-expanded="false"><span>Je možné objednat jen konzultaci?</span><span aria-hidden="true">+</span></button>
+                  <div class="faq-answer" hidden><p>Ano. Samostatná konzultace je vhodná pro menší změny, výběr materiálů nebo kontrolu vlastního návrhu.</p></div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-pad section-soft" id="kontakt">
+        <div class="container">
+          <div class="row g-5">
+            <div class="col-lg-5">
+              <p class="eyebrow">Kontakt</p>
+              <h2>Povězte nám, co chcete ve svém prostoru změnit.</h2>
+              <p>Odpovíme do dvou pracovních dnů a navrhneme nejvhodnější další krok.</p>
+              <address class="contact-details">
+                <span>Atelier Nova</span>
+                <span>Praha, Česká republika</span>
+                <span>hello@atelier-nova.example</span>
+              </address>
+            </div>
+            <div class="col-lg-7">
+              <form class="contact-form" id="contactForm" novalidate>
+                <div class="row g-3">
+                  <div class="col-md-6">
+                    <label class="form-label" for="name">Jméno</label>
+                    <input class="form-control" id="name" name="name" autocomplete="name" required minlength="2" />
+                    <div class="invalid-feedback">Zadejte prosím své jméno.</div>
+                  </div>
+                  <div class="col-md-6">
+                    <label class="form-label" for="email">E-mail</label>
+                    <input class="form-control" id="email" name="email" type="email" autocomplete="email" required />
+                    <div class="invalid-feedback">Zadejte platnou e-mailovou adresu.</div>
+                  </div>
+                  <div class="col-12">
+                    <label class="form-label" for="projectType">Typ projektu</label>
+                    <select class="form-select" id="projectType" name="projectType" required>
+                      <option value="">Vyberte možnost</option>
+                      <option>Byt</option><option>Rodinný dům</option><option>Komerční prostor</option><option>Konzultace</option>
+                    </select>
+                    <div class="invalid-feedback">Vyberte typ projektu.</div>
+                  </div>
+                  <div class="col-12">
+                    <label class="form-label" for="message">Krátce o projektu</label>
+                    <textarea class="form-control" id="message" name="message" rows="5" required minlength="20"></textarea>
+                    <div class="invalid-feedback">Napište alespoň 20 znaků.</div>
+                  </div>
+                  <div class="col-12 d-flex flex-wrap align-items-center gap-3">
+                    <button class="btn btn-dark btn-lg rounded-pill px-4" type="submit">Odeslat poptávku</button>
+                    <p class="form-status mb-0" id="formStatus" role="status" aria-live="polite"></p>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container d-flex flex-column flex-md-row justify-content-between gap-3">
+        <p>© <span id="year"></span> Atelier Nova. Portfolio demonstration.</p>
+        <a href="#top">Zpět nahoru ↑</a>
+      </div>
+    </footer>
+
+    <div class="modal fade" id="projectModal" tabindex="-1" aria-labelledby="projectModalTitle" aria-hidden="true">
+      <div class="modal-dialog modal-xl modal-dialog-centered">
+        <div class="modal-content">
+          <button type="button" class="btn-close modal-close" data-bs-dismiss="modal" aria-label="Zavřít"></button>
+          <img id="projectModalImage" src="" alt="" width="1200" height="800" />
+          <div class="modal-body p-4 p-lg-5">
+            <p class="eyebrow" id="projectModalType"></p>
+            <h2 id="projectModalTitle"></h2>
+            <p id="projectModalText"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="src/main.js"></script>
+  </body>
+</html>
