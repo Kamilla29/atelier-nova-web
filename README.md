@@ -4,9 +4,15 @@
 
 A responsive commercial website for a fictional Prague interior-design studio, built as a **classic frontend / design-to-code portfolio case**.
 
-The repository already includes a GitHub Pages deployment workflow; the public demo can be enabled from the repository Pages settings.
+The project intentionally uses semantic HTML5, SCSS, Bootstrap and jQuery rather than React to demonstrate that I can work effectively with an existing or lightweight web stack, not only SPA frameworks.
 
-The project intentionally uses semantic HTML5, SCSS, Bootstrap and jQuery rather than React. Its purpose is to demonstrate agency-style website implementation alongside my React/TypeScript application projects.
+## Recruiter snapshot
+
+- **Design-to-code:** visual brief translated into responsive semantic markup and SCSS.
+- **Classic web stack:** JavaScript, jQuery and Bootstrap interactions without framework dependence.
+- **Web fundamentals:** accessibility, SEO metadata, Schema.org, sitemap, canonical URL and performance-minded assets.
+- **Delivery:** automated quality checks plus GitHub Pages deployment workflow.
+- **Role relevance:** Web/Frontend Developer, CMS/agency work and implementation-focused roles.
 
 ## Why this project exists
 
@@ -106,4 +112,4 @@ Atelier Nova is a fictional brand created for demonstration purposes. All names,
 ---
 
 **Kamilla Kuanysheva**  
-Frontend / React Developer · JavaScript · TypeScript · Responsive Web
+Junior Software Developer · Frontend · Web
